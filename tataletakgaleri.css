@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Atur ukuran minimum dan maksimum kolom */
+    gap: 15px; /* Jarak antar gambar */
+    margin-top: 20px; /* Jarak dari bagian atas konten */
+}
+
+.grid-item img {
+    width: 100%; /* Gambar akan memenuhi seluruh grid item */
+    height: 200px; /* Atur tinggi gambar agar seragam */
+    object-fit: cover; /* Gambar akan dipotong sesuai ukuran tanpa merusak proporsi */
+    border-radius: 10px; /* Opsional: Tambahkan sudut bulat pada gambar */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Opsional: Tambahkan efek bayangan */
+}
